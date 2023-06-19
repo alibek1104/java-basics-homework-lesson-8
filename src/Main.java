@@ -24,5 +24,30 @@ public class Main {
 
         System.out.println("Периметр= " + myPerimetr);
         System.out.println("Площадь= " + myArea);
+
+        // 3.
+
+        Rectangle myRectangle = new Rectangle(5, 9);
+        int firstArea = myRectangle.returnArea();
+        System.out.println("Площадь первого прямоугольника равна: " + firstArea);
+
+        Rectangle myRectangle1 = new Rectangle(10, 14);
+        int secondArea = myRectangle1.returnArea();
+        System.out.println("Площадь второго прямоугольника равна: " + secondArea);
+
+        // 4.
+
+        Average myAverage = new Average(1, 1, 1);
+        double averageNum = myAverage.getAverageNum();
+        System.out.println("Среднее значение равно: " + averageNum);
+
+        // 5.
+
+        Movie movie1 = new Movie("Фокус", "RatPac-Dune Entertainment", "R");
+        System.out.println(movie1);
+        Movie movie2 = new Movie("Главный герой", "20th Century Studios");
+        System.out.println(movie2);
+
+
     }
 }
