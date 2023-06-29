@@ -52,9 +52,9 @@ public class Main {
         // 5.
 
         Movie movie1 = new Movie("Фокус", "RatPac-Dune Entertainment", "R");
-        System.out.println(movie1);
+        System.out.println(movie1.toString());
         Movie movie2 = new Movie("Главный герой", "20th Century Studios");
-        System.out.println(movie2);
+        System.out.println(movie2.toString());
 
 
     }
