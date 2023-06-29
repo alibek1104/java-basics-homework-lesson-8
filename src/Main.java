@@ -15,6 +15,8 @@ public class Main {
         Student myStudent3 = new Student();
         System.out.println(myStudent3);
 
+        System.out.println("");
+
         // 2.
 
         Triangle myTriangle = new Triangle(3, 4, 5);
@@ -24,6 +26,8 @@ public class Main {
 
         System.out.println("Периметр = " + myPerimetr);
         System.out.println("Площадь = " + myArea);
+
+        System.out.println("");
 
         // 3.
 
@@ -35,11 +39,15 @@ public class Main {
         int secondArea = myRectangle1.returnArea();
         System.out.println("Площадь второго прямоугольника равна: " + secondArea);
 
+        System.out.println("");
+
         // 4.
 
         Average myAverage = new Average(1, 1, 1);
         double averageNum = myAverage.getAverageNum();
         System.out.println("Среднее значение равно: " + averageNum);
+
+        System.out.println("");
 
         // 5.
 
