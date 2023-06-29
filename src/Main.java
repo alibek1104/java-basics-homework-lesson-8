@@ -4,16 +4,16 @@ public class Main {
 
         // 1.
         Student myStudent = new Student("Алиса", "Смит", "Коктем-2", 24);
-        System.out.println(myStudent);
+        System.out.println(myStudent.toString());
 
         Student myStudent1 = new Student("Азамат", "Джон", "г.Астана", 24);
-        System.out.println(myStudent1);
+        System.out.println(myStudent1.toString());
 
         Student myStudent2 = new Student("Кристина", "Иванова", "г.Алматы", 24);
-        System.out.println(myStudent2);
+        System.out.println(myStudent2.toString());
 
         Student myStudent3 = new Student();
-        System.out.println(myStudent3);
+        System.out.println(myStudent3.toString());
 
         System.out.println("");
 
