@@ -22,8 +22,8 @@ public class Main {
         double myPerimetr = myTriangle.Perimetr();
         double myArea = myTriangle.Area();
 
-        System.out.println("Периметр= " + myPerimetr);
-        System.out.println("Площадь= " + myArea);
+        System.out.println("Периметр = " + myPerimetr);
+        System.out.println("Площадь = " + myArea);
 
         // 3.
 
